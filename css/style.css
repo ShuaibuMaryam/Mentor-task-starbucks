@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding-left: 1.6rem;
+    color: #201f1f;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif!important;
+}
+nav ul li a:hover{
+    color: #008248;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 1.5rem 2.5rem;
+    font-weight: 700; 
+    font-size: .9rem; 
+}
+nav .nav-left-items .logo  img{
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+.nav-left-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-left-items ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-right-items{
+    color: #000000;
+}
+.nav-right-items ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav-right-items a{
+    margin-right: 2.5rem;
+    text-decoration: none;
+    color: #201f1f;
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+.nav-right-items a:hover{
+    color: #008248;
+}
+.nav-right-items a > i {
+    padding: .7rem;
+    font-size: 1.2rem;
+}
+.nav-right-items button{
+    padding: .4rem 1rem;
+    border-radius: 15px;
+    border: 1px solid #000000;
+    margin-left: .7rem;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 700;
+}
+#nav-btn-1{
+    background-color: white;
+}
+#nav-btn-1:hover{
+    background-color: #f3f1e7;
+}
+#nav-btn-2{
+    background-color: #000000;
+    color: white;
+}
+
+
+/* -----banner----- */
+.banner{
+    background-color: #1e3932;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+.banner span{
+    color: white;
+    padding-left: 8rem;    
+}
+
+
+/* -----section 2----- */
+
+.section-2{
+    /* background-image: url('../images/banner.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 95vh;
+    padding-left: 2.5rem;
+}
+.section-2 div{
+    margin-top: 1.5rem;
+}
+.section-2-heading h1{
+    font-size: 2.5rem;
+}
+.section-2 div span{
+    font-size: 1.3rem;
+}
+.section-2-join-btn a{
+    background-color: #008248;
+    text-decoration: none;
+    color: white;
+    padding: .4rem 1rem;
+    border-radius: 17px;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
+.section-2-txt2 a{
+    color: inherit;
+}
+
+
+/*-----getting started-----*/
+
+.getting-started{
+    border: 2px solid;
+    /* height: 50vh; */
+}
+.getting-started-header{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 6rem;
+}
+.getting-started-header h2{
+    font-size: 2rem;
+}
+.getting-started .steps span{
+    border: 2px solid #008248;
+    padding: 1rem;
+    border-radius: 50%;
+    color: #008248;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.getting-started .steps span, p, h3{
+    font-size: 1.19rem;
+    margin-top: 1.5rem;
+}
+
+.getting-started-steps{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.steps{
+    text-align: center;
+    width: 26%;
+    margin: 1.5rem;
+}
+
