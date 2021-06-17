@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 ul li{
     list-style-type: none;
 }
@@ -134,30 +138,22 @@ nav .nav-left-items .logo  img{
 /*-----getting started-----*/
 
 .getting-started{
-    border: 2px solid;
     display: flex;
     flex-direction: column;
+    padding-bottom: 6rem;
 }
 .getting-started-header{
     margin: 0 auto;
     width: 50%;
     text-align: center;
-    padding-top: 6rem;
+    margin-top: 6rem;
 }
 .getting-started-header h2{
     font-size: 2rem;
 }
-.getting-started .steps span{
-    border: 2px solid #008248;
-    padding: 1rem;
-    border-radius: 50%;
-    color: #008248;
-    font-size: 2.5rem;
-    font-weight: 900;
-}
-.getting-started .steps span, p, h3{
+.getting-started .steps p, p, h3{
     font-size: 1rem;
-    margin-top: 1.7rem;
+    margin-top: 1.2rem;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif!important;
 }
 .getting-started-steps{
@@ -171,13 +167,17 @@ nav .nav-left-items .logo  img{
     width: 26%;
     margin: 1.5rem;
 }
-.steps .number-img img{
-    width: 50px;
-    height: 50px;
+.steps > img{
+    width: 3rem;
+    height: 3rem;
 }
-.steps-span{
-    margin: 6rem;
+.steps > p a{
+    color: #008248;
 }
+.steps > h3{
+    font-size: 1.2rem;
+}
+
 
 
 
@@ -191,10 +191,10 @@ nav .nav-left-items .logo  img{
     text-align: center;
     padding-top: 2rem;
 }
-.fav-tab-list > h2{
+/* .fav-tab-list > h2{
     font-size: 2rem;
     margin-bottom: 1rem;
-}
+} */
 .fav-tab-list button{
     border: none;
     outline: none;
@@ -246,3 +246,14 @@ nav .nav-left-items .logo  img{
     font-size: 1.5rem;
 }
 
+
+
+/*-----Etras----*/
+.extras-items > div img{
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 1.2rem;
+}
+.extras-items > div a{
+    padding-top: 1rem;
+}
