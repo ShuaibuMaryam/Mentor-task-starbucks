@@ -6,6 +6,9 @@
     <title>Starbucks | Rewards</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <script src="./js/script.js"></script>
 </head>
 <body>
     <main>
@@ -61,19 +64,87 @@
         </div>
         <div class="getting-started-steps">
             <div class="steps">
-                <span>1</span>
+                <span class="steps-span">1</span>
                 <h3>Create an account</h3>
                 <p>To get started, <a href="#">join now</a>. You can also join in the app to get access to the full range of Starbucks® Rewards benefits.</p>
             </div>
             <div class="steps">
-                <span>2</span>
+                <span class="steps-span">2</span>
                 <h3>Order and pay how you’d like</h3>
                 <p>Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. Learn how</p>
             </div>
             <div class="steps">
-                <span>3</span>
+                <span class="steps-span">3</span>
                 <h3>Earn Stars, get Rewards</h3>
                 <p>As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------Favourates Tabs------->
+    <section class="favourites-tabs">
+        <div class="fav-tab-list">
+            <h2>Get your favorites for free</h2>
+            <button class="tablink" onclick="openTab(event, 'first-content')">
+                <h3>25<span id="star">★</span></h3>
+            </button>
+            <button class="tablink" onclick="openTab(event, 'second-content')">
+                <h3>50<span id="star">★</span></h3>
+            </button>
+            <button class="tablink" onclick="openTab(event, 'third-content')">
+                <h3>150<span id="star">★</span></h3>
+            </button>
+            <button class="tablink" onclick="openTab(event, 'fourth-content')">
+                <h3>200<span id="star">★</span></h3>
+            </button>
+            <button class="tablink" onclick="openTab(event, 'fifth-content')">
+                <h3>400<span id="star">★</span></h3>
+            </button>
+        </div>
+        <div id="first-content" class="tab-content fav-tab-content active">
+            <div class="tab-img">
+                <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/025.png" alt="">
+            </div>
+            <div class="tab-text">
+                <h3>Customize your drink</h3>
+                <p>Make your drink just right with an extra <br>espresso shot, dairy substitute or a dash <br> of your favorite syrup.</p>
+            </div>
+        </div>
+        <div id="second-content" class="tab-content fav-tab-content">
+            <div class="tab-img">
+                <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/050.png" alt="">
+            </div>
+            <div class="tab-text">
+                <h3>Brewed hot coffee, bakery <br> item or hot tea</h3>
+                <p>Pair coffee cake or an almond croissant with <br> your fresh cup of hot brew.</p>
+            </div>
+        </div>
+        <div id="third-content" class="tab-content fav-tab-content">
+            <div class="tab-img">
+                <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/150.png" alt="">
+            </div>
+            <div class="tab-text">
+                <h3>Handcrafted drink, hot <br> breakfast or parfait</h3>
+                <p>Have a really good morning with a breakfast <br> sandwich, oatmeal or your favorite drink.</p>
+            </div>
+        </div>
+        <div id="fourth-content" class="tab-content fav-tab-content">
+            <div class="tab-img">
+                <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/200.png" alt="">
+            </div>
+            <div class="tab-text">
+                <h3>Salad, sandwich or protein <br> box</h3>
+                <p>Nourish your day with a hearty Chipotle <br> Chicken Wrap or Eggs & Cheese Protein Box.</p>
+            </div>
+        </div>
+        <div id="fifth-content" class="tab-content fav-tab-content">
+            <div class="tab-img">
+                <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/400.png" alt="">
+            </div>
+            <div class="tab-text">
+                <h3>Select merchandise or at- <br> home coffee</h3>
+                <p>Take home a signature cup, a bag of coffee or <br> your choice of select coffee accessories.</p>
             </div>
         </div>
     </section>

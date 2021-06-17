@@ -135,7 +135,8 @@ nav .nav-left-items .logo  img{
 
 .getting-started{
     border: 2px solid;
-    /* height: 50vh; */
+    display: flex;
+    flex-direction: column;
 }
 .getting-started-header{
     margin: 0 auto;
@@ -155,18 +156,93 @@ nav .nav-left-items .logo  img{
     font-weight: 900;
 }
 .getting-started .steps span, p, h3{
-    font-size: 1.19rem;
-    margin-top: 1.5rem;
+    font-size: 1rem;
+    margin-top: 1.7rem;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif!important;
 }
-
 .getting-started-steps{
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    align-items: center;
+    margin-top: 2rem;
 }
 .steps{
     text-align: center;
     width: 26%;
     margin: 1.5rem;
+}
+.steps .number-img img{
+    width: 50px;
+    height: 50px;
+}
+.steps-span{
+    margin: 6rem;
+}
+
+
+
+/*-----favourites tabs*/
+
+
+.fav-tab-list{
+    background-color: #f1f8f6;
+    overflow: hidden;
+    border: 1px solid;
+    text-align: center;
+    padding-top: 2rem;
+}
+.fav-tab-list > h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.fav-tab-list button{
+    border: none;
+    outline: none;
+    padding: 1rem;
+    margin: 0 1rem;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.fav-tab-list button.active{
+    border-bottom: 5px solid #008248;
+}
+.fav-tab-list button h3{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+#star{
+    color: rgb(194, 165, 3);
+    font-size: initial;
+}
+
+.fav-tab-content{
+    display: none;
+    align-items: center;
+    background-color: #d4e9e2;
+}
+
+.fav-tab-content.active{
+    /* display: none !important; */
+    display: flex;
+    align-items: center;
+    background-color: #d4e9e2;
+}
+.tab-img{
+    width: 50%;
+    padding-left: 18rem;
+    padding-top: 3rem;
+}
+.tab-img > img{
+    width: 20rem;   
+}
+.tab-text{
+    width: 50%;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    text-align: left;
+    line-height: 1.6rem;
+}
+.tab-text > h3{
+    font-size: 1.5rem;
 }
 
