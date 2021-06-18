@@ -1,16 +1,20 @@
-//-----favourites tab-----//
-// function openTab(event, tabName){
-//     var i, tabContent, tabLink;
-//     tabContent = document.getElementsByClassName("fav-tab-content");
-//     for(i = 0; i < tabContent.length; i++){
-//         tabContent[i].getElementsByClassName.display = "none";
-//     }
-//     tabLink = document.getElementsByClassName("tablink");
-//     for(i = 0; i < tabLink.length; i++){
-//         tabLink[i].className.replace("active", "");
-//         console.log('clicked')
-//     }
+//-----Toggleable nav-----//
 
-//     document.getElementById(tabName).style.display = "flex";
-//     event.currentTarget.className += "active";
-// }
+
+
+//-----favourites tab-----//
+function tabToggle(event, allContent){
+    let tabContent, tabList, i;
+    tabContent = document.getElementsByClassName("tab-content");
+    tabList = document.getElementsByClassName("tablist");
+    for(i = 0; i < tabContent.length; i++){
+        tabContent[i].style.display = "none";
+    }
+    for(i = 0; i < tabList.length; i++){
+        tabList[i].className = tabList[i].className.replace(" active", "");
+    }
+    document.getElementById(allContent).style.display = "flex";
+    event.currentTarget.className = event.currentTarget.className + " active";
+}
+// let a = document.getElementById("firstContent");
+// a.style.display = "block;
