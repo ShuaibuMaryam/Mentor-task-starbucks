@@ -7,6 +7,12 @@ h2{
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+p{
+    line-height: 1.5rem;
+}
+p > a{
+    color: #008248;
+}
 ul li{
     list-style-type: none;
 }
@@ -171,13 +177,9 @@ nav .nav-left-items .logo  img{
     width: 3rem;
     height: 3rem;
 }
-.steps > p a{
-    color: #008248;
-}
 .steps > h3{
     font-size: 1.2rem;
 }
-
 
 
 
@@ -255,5 +257,134 @@ nav .nav-left-items .logo  img{
     margin-bottom: 1.2rem;
 }
 .extras-items > div a{
-    padding-top: 1rem;
+    color: #008248;
 }
+.extras-items > div p{
+    padding-bottom: 2rem;
+}
+
+
+
+/*-----Payment Options-----*/
+.payment-options{
+    background-color: #f3f1e7;
+}
+.payment-options p{
+    margin-top: 1.5rem;
+}
+.pay-opt-options{
+    display: flex;
+    margin: 2.5rem 3rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+.pay-opt-heading h2{
+    font-size: 2rem;
+}
+.bordered-pay-opt{
+    border-bottom: 1px solid grey;
+}
+.pay-opt-1a{
+    width: 20%;
+}
+.pay-opt-1a  p{
+    margin-top: initial;
+}
+.pay-opt > div img{
+    width: 7rem;
+    height: 10rem;
+}
+.pay-opt-text{
+    margin-left: 1rem;
+}
+.pay-opt h3{
+    font-size: 1rem;
+}
+.pay-opt .pay-opt-text > h3{
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.pay-opt-1b, .pay-opt-1c{
+    display: flex;
+    width: 28%;
+    margin-left: 3rem;
+}
+#black-star{
+    font-size: initial;
+}
+
+
+
+/*-----Star Codes*/
+.starcodes{
+    width: 45%;
+    margin-left: 15.6rem;
+    margin-top: 4rem;
+}
+.starcode-info p{
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+.starcode-info input{
+    padding: .9rem;
+    width: 100%;
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.starcode-info input::placeholder{
+    font-size: 1.2rem;
+    font-weight: inherit;
+}
+.starcode-info button{
+    padding: .5rem 1.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    left: 82%;
+    position: relative; 
+    background: transparent;
+    
+}
+.starcode-info button + p{
+    font-size: .9rem;
+}
+.questions{
+    margin-top: 6rem;
+}
+
+
+/*-----Terms-----*/
+.terms{
+    background-color: #f1f8f6;
+    padding-top: 2.5rem;
+    margin-top: 6rem;
+}
+.terms #terms-heading{
+   margin-left: 2rem;
+}
+.terms h4{
+    color: gray;
+}
+.h4{
+    margin-top: 2rem;
+}
+.terms p{
+    font-size: .86rem;
+}
+.left-right-container{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+}
+.terms .left, .right{
+    width: 50%;
+    margin: 1rem;
+}
+
+/*-----Top footer-----*/
+
