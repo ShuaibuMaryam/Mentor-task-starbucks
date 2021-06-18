@@ -1,6 +1,6 @@
 @media(max-width: 826px){
     body{
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     .nav-links{
         /* position: absolute;
@@ -44,7 +44,7 @@
     .banner{
         padding-left: 1rem;
         padding-right: 1rem;
-        height: 4vh;
+
     }
     .banner-btn{
         display: block;
