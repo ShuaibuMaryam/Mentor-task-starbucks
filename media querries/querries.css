@@ -38,6 +38,19 @@
 
 
 @media(max-width: 600px){
-.banner-btn{
-    display: block;
+    nav{
+        height: 5vh;
+    }
+    .banner{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        height: 4vh;
+    }
+    .banner-btn{
+        display: block;
+    }
+     .section-2{
+        align-items: center;
+        text-align: center;
+     }   
 }
