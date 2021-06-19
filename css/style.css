@@ -36,10 +36,6 @@ nav{
     font-size: .9rem;
     min-height: 8vh;
 }
-/* .nav-flex{
-    display: flex;
-    justify-content: space-between;
-} */
 nav .logo  img{
     width: 50px;
     height: 50px;
@@ -101,7 +97,7 @@ nav .logo  img{
 }
 .burger div{
     width: 25px;
-    height: 3px;
+    height: 2px;
     background-color: black;
     margin: 5px;
 }
@@ -135,16 +131,19 @@ nav .logo  img{
 /* -----section 2----- */
 
 .section-2{
-    /* background-image: url('../images/banner.png'); */
+    background-image: url('../images/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 100 auto;
+    background-position: 1000 9999;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     height: 95vh;
     padding-left: 2.5rem;
+}
+.section-2 .background-holder{
+    width: 50%;
 }
 .section-2 div{
     margin-top: 1.5rem;
