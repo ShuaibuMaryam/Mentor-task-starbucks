@@ -45,7 +45,7 @@
        font-size: 1.4rem; 
     }
     p{
-        font-size: .9rem;
+        font-size: .8rem;
     }
     nav{
         height: 5vh;
@@ -119,6 +119,7 @@
     }
     .fav-tab-list{
         width: 100%;
+        max-width: 50vw;
     }  
     #firstContent{
         display: flex;
@@ -128,12 +129,48 @@
 
     .tab-img{
         width: 100%;
+       
     }
     .tab-text{
         width: 100%;
         /* text-align: center; */
         display: flex;
         justify-content: flex-start;
+    }
 
+
+    .pay-opt-options{
+        display: flex;
+        flex-direction: column;
+    }
+    .pay-opt-1a{
+        width: 100%;
+    }
+    .pay-opt-1b, .pay-opt-1c{
+        margin-top: 3rem;
+        width: 100%;
+        margin-left: 1.5rem;
+    }
+
+
+
+    .starcodes{
+        width: 100%;
+        margin-left: 0;
+        padding: 2rem;
+    }
+
+
+
+    .left-right-container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .terms .left, .right{
+        width: 100%;
+    }
+    .left-right-container > div, .left{
+        width: 100%;
     }
 }
