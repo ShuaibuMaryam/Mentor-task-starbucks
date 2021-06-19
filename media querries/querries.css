@@ -40,6 +40,7 @@
 @media(max-width: 600px){
     nav{
         height: 5vh;
+        margin-top: 1rem;
     }
     .banner{
         padding-left: 1rem;
@@ -48,9 +49,50 @@
     }
     .banner-btn{
         display: block;
+        padding: .5rem .8rem;
     }
-     .section-2{
+    .section-2{
+        display: flex;
+        justify-content: flex-start;
         align-items: center;
         text-align: center;
-     }   
+        padding-left: 0;
+        height: 65vh;
+    } 
+    .section-2-join-btn a{
+        margin: 0 auto;
+    }
+    #desktop-link{
+        display: none !important;
+    }
+     
+    #mobile-link{
+        display: block;
+    }
+
+
+    .getting-started-header h2{
+        font-size: 1.4rem;
+    }
+    .getting-started-steps{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .steps{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: start;
+        width: 100%;
+        padding: 1rem;
+    }
+    .steps-text {
+        margin-left: 1rem;
+    }
+    .steps-text > h3{
+        margin-top: 0;
+    }
+
+
 }

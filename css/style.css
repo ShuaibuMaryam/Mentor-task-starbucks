@@ -167,7 +167,9 @@ nav .logo  img{
 .section-2-txt2 a{
     color: inherit;
 }
-
+#mobile-link{
+    display: none;
+}
 
 /*-----getting started-----*/
 
@@ -178,7 +180,7 @@ nav .logo  img{
 }
 .getting-started-header{
     margin: 0 auto;
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
     margin-top: 6rem;
 }
