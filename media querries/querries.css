@@ -38,6 +38,15 @@
 
 
 @media(max-width: 600px){
+    h3{
+        font-size: .8rem;
+    }
+    h2{
+       font-size: 1.4rem; 
+    }
+    p{
+        font-size: .9rem;
+    }
     nav{
         height: 5vh;
         margin-top: 1rem;
@@ -55,10 +64,18 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        /* flex-shrink: 1; */
         text-align: center;
         padding-left: 0;
         height: 65vh;
-    } 
+        font-size: ;
+    }
+    .section-2-heading h1{
+        font-size: 1rem;
+    }
+    .section-2 div span{
+        font-size: .8rem;
+    }
     .section-2-join-btn a{
         margin: 0 auto;
     }
@@ -95,4 +112,28 @@
     }
 
 
+    
+    
+    .fav-tab-list-wrapper > h2{
+        font-size: 1.4rem;
+    }
+    .fav-tab-list{
+        width: 100%;
+    }  
+    #firstContent{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .tab-img{
+        width: 100%;
+    }
+    .tab-text{
+        width: 100%;
+        /* text-align: center; */
+        display: flex;
+        justify-content: flex-start;
+
+    }
 }
