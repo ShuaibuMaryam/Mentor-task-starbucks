@@ -121,7 +121,7 @@
         width: 100%;
         max-width: 50vw;
     }  
-    #firstContent{
+    .tab-content{
         display: flex;
         flex-direction: column;
         
@@ -133,23 +133,30 @@
     }
     .tab-text{
         width: 100%;
-        /* text-align: center; */
+        text-align: center;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
     }
-
+    .tab-text > h3{
+        font-size: 1rem;
+        text-align: center;
+    }
+    
 
     .pay-opt-options{
         display: flex;
         flex-direction: column;
+        margin: 2.5rem 1rem;
     }
     .pay-opt-1a{
         width: 100%;
+        margin-left: none;
     }
     .pay-opt-1b, .pay-opt-1c{
         margin-top: 3rem;
         width: 100%;
-        margin-left: 1.5rem;
+        margin-left: 1rem;
     }
 
 
@@ -162,10 +169,14 @@
 
 
 
+    .terms #terms-heading{
+        margin-left: 1rem;
+    }
     .left-right-container{
         display: flex;
         flex-direction: column;
-
+        margin-left: 0;
+        padding-left: 0;
     }
     .terms .left, .right{
         width: 100%;
@@ -173,4 +184,31 @@
     .left-right-container > div, .left{
         width: 100%;
     }
+
+
+    .top-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer{
+        padding: 0;
+    }
+    .icons{
+        padding-left: .5rem;
+    }
+    .footerLinks{
+        padding-left: 0;
+    }
+    .footerLinks ul li{
+        display: block;
+        padding: .9rem;
+    }
+    .footerLinks ul li a{
+        /* padding: 1rem; */
+    }
+    .footerLinks p{
+        padding-left: .9rem;
+    }
+
 }
