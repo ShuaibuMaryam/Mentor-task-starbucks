@@ -138,6 +138,7 @@
     .fav-tab-list button{
         border: none;
         outline: none;
+        background: none;
     }  
     .tab-content{
         display: flex;
