@@ -1,14 +1,14 @@
 @media(max-width: 826px){
-    body{
+    /* body{
         overflow-x: hidden !important;
-    }
+    } */
     .nav-links{
         position: absolute;
         right: 0;
         height: 92vh;
         background-color: white;
         top: 8vh;
-        display: flex;
+        display: none;
         align-items: center;
         width: 50%;
         transform: translateX(0%);
@@ -34,12 +34,16 @@
         display: block;
         cursor: pointer;
     }
-    /* nav.active{
-        transform: translateX(0);
-    } */
     .toggle{
         transform: translateX(100%) !important;
     }
+    /* nav.active{
+        transform: translateX(0);
+    } */
+    /* #navigationToggle{
+        display: block;
+    } */
+    
 }
 
 
