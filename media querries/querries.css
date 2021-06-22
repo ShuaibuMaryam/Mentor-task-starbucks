@@ -82,7 +82,7 @@
         height: 60vh;
         background-color: #d4e9e2;
         background-image: url('https://www.starbucks.com/weblx/images/rewards/hero/hero-mobile_2021.jpg');
-        background-size: unset;
+        background-size: cover;
         background-position: bottom right;
     }
     .section-2-join-btn a{
