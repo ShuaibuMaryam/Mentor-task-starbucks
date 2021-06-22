@@ -96,7 +96,7 @@ nav .logo  img{
 .hamburger{
     display: none;
 }
-
+ 
 .hamburger div{
     width: 25px;
     height: 2px;
@@ -167,9 +167,6 @@ nav .logo  img{
 }
 .section-2-txt2 a{
     color: inherit;
-}
-.toggle{
-    transform: translateX(100%) !important;
 }
 #mobile-link{
     display: none;

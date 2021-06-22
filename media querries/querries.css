@@ -34,8 +34,11 @@
         display: block;
         cursor: pointer;
     }
-    nav.active{
+    /* nav.active{
         transform: translateX(0);
+    } */
+    .toggle{
+        transform: translateX(100%) !important;
     }
 }
 
