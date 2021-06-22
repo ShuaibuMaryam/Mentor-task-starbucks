@@ -1,6 +1,6 @@
 @media(max-width: 826px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .nav-links{
         position: absolute;
