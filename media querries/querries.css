@@ -1,7 +1,7 @@
 @media(max-width: 826px){
-    /* body{
+    body{
         overflow-x: hidden !important;
-    } */
+    }
     .nav-links{
         position: absolute;
         right: 0;
