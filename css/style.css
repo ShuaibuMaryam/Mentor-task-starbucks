@@ -132,10 +132,11 @@ nav .logo  img{
 /* -----section 2----- */
 
 .section-2{
-    background-image: url('../images/banner.png');
+    background-color: #d4e9e2;
+    background-image: url('https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right bottom;
+    background-position: bottom center;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -37,13 +37,6 @@
     .toggle{
         transform: translateX(100%) !important;
     }
-    /* nav.active{
-        transform: translateX(0);
-    } */
-    /* #navigationToggle{
-        display: block;
-    } */
-    
 }
 
 
@@ -88,7 +81,7 @@
         padding-left: 0;
         height: 60vh;
         background-color: #d4e9e2;
-        background-image: url('../images/banner.png');
+        background-image: url('https://www.starbucks.com/weblx/images/rewards/hero/hero-mobile_2021.jpg');
         background-size: unset;
         background-position: bottom right;
     }

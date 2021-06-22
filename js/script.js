@@ -1,7 +1,7 @@
 //-----Toggleable nav-----//
 function navToggle() {
     let nav = document.getElementById("navigationToggle");
-    nav.classList.toggle('toggle');
+    nav.classList.toggle('toggle').style.display = "block ";
     nav.style.display = "block";
     
 }
