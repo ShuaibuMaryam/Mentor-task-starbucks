@@ -59,7 +59,7 @@ nav .logo  img{
     display: flex;
     flex-direction: row;
 }
-.nav-right-items a{
+.nav-right-items a, .nav-right-items-2 a{
     margin-right: 2.5rem;
     text-decoration: none;
     color: #201f1f;
@@ -74,7 +74,7 @@ nav .logo  img{
     padding: .7rem;
     font-size: 1.2rem;
 }
-.nav-right-items button{
+.nav-right-items button, .nav-right-items-2 button{
     padding: .4rem 1rem;
     border-radius: 15px;
     border: 1px solid #000000;
@@ -93,6 +93,10 @@ nav .logo  img{
     background-color: #000000;
     color: white;
 }
+#navigationToggle{
+    display: none;
+}
+
 .hamburger{
     display: none;
 }
